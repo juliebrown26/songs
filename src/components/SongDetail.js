@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { sign } from "crypto";
+import { song } from "react-redux";
 
 const SongDetail = ({ song }) => {
   if (!song) {
